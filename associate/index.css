@@ -1,0 +1,67 @@
+body {
+	text-align: center;
+	padding: 10px;
+	background-color: #d9f5ff;
+}
+form {
+	background-color: #fafafa;
+	width: 250px;
+	border: 1px solid #c4c4c4;
+	border-radius: 5px;
+}
+tr {
+	background-color: #ffffff;
+}
+td, th {
+	padding: 5px;
+}
+td {
+	border: 1px solid #e7e7e7;
+    text-align: left;
+}
+td[colspan="2"] {
+	background-color: #d9d9d9;
+}
+th {
+	border-bottom: 2px solid #e7e7e7;
+}
+footer {
+	background-color: #ace6fa;
+}
+.icon {
+	width: 175px;
+	height: 200px;
+}
+.disclaimer {
+	font-size: 12px;
+}
+.odd {
+	background-color: #f5f5f5;
+}
+#display {
+	width: 1200px;
+	min-height: 500px;
+	border: 2px solid #000000;
+	background-color: #ffffff;
+	padding: 5px;
+}
+#add {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+#add + label, #upload {
+	margin: 5px;
+	padding: 5px;
+    background-color: #e7e7e7;
+	border: 1px solid #000000;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#add:focus + label, #add + label:hover, #upload:hover {
+    background-color: #dbdbdb;
+}
